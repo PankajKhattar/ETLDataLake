@@ -1,6 +1,6 @@
 // Databricks notebook source
 // DBTITLE 1,Access ADLS Gen2 with a Shared Key
-spark.conf.set("fs.azure.account.key.accountsamplestorage.dfs.core.windows.net", "yTQRIG8rQlIys/yabImgJch0M3QHKIkVV4vsRzb/SrJc+ng6vuCZgnTsJcBsxFUo6A0s07EBdJl6lSWrd+vuEQ==")
+spark.conf.set("fs.azure.account.key.accountsamplestorage.dfs.core.windows.net", "")
 
 dbutils.fs.ls("abfss://sample@accountsamplestorage.dfs.core.windows.net/")
 
